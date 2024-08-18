@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUpForm</title>
+    <link rel="stylesheet" href="Task1.css">
+  </head>
+  <body>
+    <h1>Join Twitch Today</h1>
+    <label for="UName">Username</label><br />
+    <input type="text" id="UName" /><br />
+    <label for="Pass">Password</label><br />
+    <input type="password" name="password" id="Pass" /><br />
+    <label for="DOB">Date Of Birth</label><br />
+
+    <select id="month" placeholder="Month">
+      <option>Month</option>
+      <option value="January">January</option>
+      <option value="February">February</option>
+      <option value="March">March</option>
+      <option value="April">April</option>
+      <option value="May">May</option>
+      <option value="June">June</option>
+      <option value="July">July</option>
+      <option value="August">August</option>
+      <option value="September">September</option>
+      <option value="October">October</option>
+      <option value="November">November</option>
+      <option value="December">December</option>
+    </select>
+    <input type="number" name="date" id="day" placeholder="Day" />
+    <input type="number" name="year" id="year" placeholder="Date" /><br />
+    <label for="num">Phone Number</label>
+    <p style="display: inline">Use email instead</p>
+    <br />
+    <select id="country-code" class="country-selector">
+      <option value="+1">United States (+1)</option>
+      <option value="+44">United Kingdom (+44)</option>
+      <option value="+91">India (+91)</option>
+      <option value="+81">Japan (+81)</option>
+      <option value="+61">Australia (+61)</option>
+      <option value="+33">France (+33)</option>
+      <option value="+49">Germany (+49)</option>
+      <option value="+55">Brazil (+55)</option>
+      <option value="+27">South Africa (+27)</option>
+      <option value="+86">China (+86)</option>
+      <!-- Add more countries as needed -->
+    </select>
+    <input type="email" name="" id="" />
+    <p>
+      Twitch may use your phone number to call or send text messages with
+      information regarding your account.
+    </p>
+    <p>By clicking Sign Up, you are agreeing to Twitch’s Terms of Service and are acknowledging our Privacy Notice applies.</p>
+    <button type="submit">Sign Up</button>
+    <button>Have an account? Log in</button>
+  </body>
+</html>
